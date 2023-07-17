@@ -1,0 +1,27 @@
+h1{
+    font-size: 60px;
+    color: #5a544b;
+}
+
+body{
+    background-color: rgb(250, 250, 239);
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+    margin-left: 90px;
+    padding: 30px;
+    text-decoration: none;
+    color: #5a544b;
+    background: #f9f9f9;/*色*/
+    border-radius: 4px;/*角の丸み*/
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 4px #b3b3b3;/*線色*/
+}
+.button:active{
+      /*押したとき*/
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.662);
+}

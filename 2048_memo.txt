@@ -1,0 +1,2 @@
+//配列を値渡しする時
+var array2 = Array.from(array1);
